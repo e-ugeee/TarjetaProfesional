@@ -1,0 +1,75 @@
+body{
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    background-image: url(assets/background.gif);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tarjetita{
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgb(0, 162, 255);
+    background-color: #aa0235;
+    padding: 24px;
+    text-align: center;
+    transition: 4.s ease .2s ease;
+    border: 3px solid rgb(0, 255, 55);
+}
+.Tarjetita:hover{
+    transform: scale(1.02);
+    background-color: #d81650;
+    border-color: rgb(255, 230, 0);
+}
+.Tarjetita img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0% auto 12px;
+    border: 6px double #39b477;
+}
+.Tarjetita h1{
+    font-size: 1.4rem;
+    font-family: "Barriecito", sans-serif;
+    margin: 4px 0 0%;
+    color: #021233;
+}
+.Tarjetita h2{
+    font-size: 1rem;
+    color: #ff8caf;
+    margin: 0 0 12px;
+    font-weight: 500;
+    font-family: "Lacquer", system-ui;;
+}
+.Tarjetita p{
+    color: aqua;
+    margin: 0 0 12px;
+    font-family: "Nabla", system-ui;
+    font-size: 24px;
+}
+.Habilidades{
+    list-style: square;
+    padding: 0;
+    margin: 0 0 16px;
+}
+.Habilidades li{
+    display: -moz-inline-grid;
+    padding: 6px 10px;
+    margin: 4px;
+    background: #710755;
+    border-radius: 999px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-size: 20px;
+}
+.Tarjetita a{
+    color: beige;
+    text-decoration: double;
+    font-size: 100;
+    font-family: "Bitcount Prop Single", system-ui;
+}
+.Tarjetita a:hover{
+    text-decoration: underline;
+}
